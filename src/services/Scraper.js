@@ -19,7 +19,7 @@ class Scraper {
 
   async getTimeline() {
     const $ = await this.getHTML(
-      'https://bnonews.com/index.php/2020/01/timeline-coronavirus-epidemic/'
+      'https://bnonews.com/index.php/2020/02/the-latest-coronavirus-cases/'
     );
     const timelineDiv = $('#mvp-content-main');
 
